@@ -1,0 +1,37 @@
+
+-->Python Program Flow
+
+-Check Mail for Unseen
+-Find the Attachment for Unseen
+-Downlaod Attachment
+-Check for Contents in it
+-if found like cv, Resuma, File Application
+-Then Open
+
+
+
+-->Problem :- trigger
+
+* --> email_Listener Library {Memory & Time Wastage}
+
+-->Trigger :-
+
+-> Email_Listener (Trigger Pe)
+-> AWS Trigger select {Schedule Pattern for 1 Day}
+
+->{
+	el = email_listener.EmailListener(username, password, folder, path)
+	el.login()
+	messages = el.scrape()
+	}
+
+
+
+-->Requirement :-
+-> Email Id
+-> Password
+
+-> AWS Id
+
+
+ 
